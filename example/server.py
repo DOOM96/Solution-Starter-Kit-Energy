@@ -15,14 +15,14 @@ from cloudant.client import Cloudant
 # You must overwrite the values in api_access below with those from your service credential, that you created in IBM Cloud IAM for Cloudant.
 # The actual values below are to just show the format - and these are no longer valid.
 api_access = {
-  "apikey": "-OPMa01VOo5YhaHqHatlzNQiNFF1b31fqlY3hRpc720H",
-  "host": "c5abe484-83a8-407e-92f8-b3be0f8f0afe-bluemix.cloudantnosqldb.appdomain.cloud",
-  "iam_apikey_description": "Auto-generated for key 1547206e-bf1b-466e-b797-7afabfc9b29e",
-  "iam_apikey_name": "apiaccess",
+  "apikey": "HfS8rG1dWd85j58C6VGMxrD0T-borT_4_GEZgC0B_DWh",
+  "host": "ae1f2b5c-72fb-480f-9f73-5abcbfae8d0b-bluemix.cloudantnosqldb.appdomain.cloud",
+  "iam_apikey_description": "Auto-generated for key 263961ae-6af3-49a2-af4f-703afbc28534",
+  "iam_apikey_name": "CIR_SC",
   "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
-  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/4a35fbbd385a17dc3178b6dc66949178::serviceid:ServiceId-c6da6f0d-c24c-4d28-b15e-ea426501b8d1",
-  "url": "https://c5abe484-83a8-407e-92f8-b3be0f8f0afe-bluemix.cloudantnosqldb.appdomain.cloud",
-  "username": "c5abe484-83a8-407e-92f8-b3be0f8f0afe-bluemix"
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/de56c97a546243389c9ab74375523c5e::serviceid:ServiceId-ad7f87e3-dce9-4880-ad7a-208983c4f536",
+  "url": "https://ae1f2b5c-72fb-480f-9f73-5abcbfae8d0b-bluemix.cloudantnosqldb.appdomain.cloud",
+  "username": "ae1f2b5c-72fb-480f-9f73-5abcbfae8d0b-bluemix"
 }
 
 client = Cloudant.iam(
